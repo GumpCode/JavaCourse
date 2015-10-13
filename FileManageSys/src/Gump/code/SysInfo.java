@@ -1,3 +1,5 @@
+package Gump.code;
+
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
@@ -39,7 +41,7 @@ public class SysInfo {
 
 	private static String computerName = null;
 	private static String userName = null;
-	public  static String path = null;
+	private  static String path = null;
 	
 	public void getSysInfo(){
 		InetAddress i;
@@ -60,6 +62,7 @@ public class SysInfo {
 	public static void setPath(String newPath){
 		path = newPath;
 	}
+	
 	public String showInfo() {
 		return userName + "@" + computerName + ":" + path + "$ ";
 		//return computerName + ":" + path + "$ ";

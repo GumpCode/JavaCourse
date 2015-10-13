@@ -1,3 +1,5 @@
+package Gump.code;
+
 import java.util.Scanner;
 
 public class CommandLine {

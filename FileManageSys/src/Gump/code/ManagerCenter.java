@@ -1,3 +1,5 @@
+package Gump.code;
+
 public class ManagerCenter {
 
 	protected boolean SysOpter(String[] commandLine) throws Exception{

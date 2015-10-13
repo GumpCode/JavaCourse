@@ -1,3 +1,5 @@
+package Gump.code;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -28,7 +30,7 @@ public class AESUtils {
      * @return
      * @throws Exception
      */
-    public static String getSecretKey() throws Exception {
+    protected static String getSecretKey() throws Exception {
         return getSecretKey(null);
     }
     

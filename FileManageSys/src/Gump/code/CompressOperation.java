@@ -1,3 +1,5 @@
+package Gump.code;
+
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -8,13 +10,13 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 public class CompressOperation {
-	public static final String EXT = ".zip";
-	public static String BASE_DIR = "";
+	private static final String EXT = ".zip";
+	private static String BASE_DIR = "";
 	
 	private static final String PATH = "/";
 	private static final int BUFFER = 1024;
 	
-	public static void zip(File srcFile) throws Exception{
+	protected static void zip(File srcFile) throws Exception{
 		String name = srcFile.getName();
 		String basePath = srcFile.getParent();
 		String destPath = basePath + PATH + name + EXT;
