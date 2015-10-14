@@ -3,15 +3,15 @@ package Gump.code;
 import java.io.File;
 
 public class MakeOperation {
-	/*
-	 * 创建文件 mkfile
-	 * 创建文件夹 mkdir
-	 * param: currPath （程序默认输入）当前路径
-	 * 		  fileName  文件名字
-	 *		  despath 目标路径  
+	/**
+	 * <p>
+	 * 在当前文件夹创建文件
+	 * <p>
+	 * 
+	 * @param currPath
+	 * @param fileName
+	 * @throws Exception
 	 */
-
-	//在当前路径建立文件
 	public static void mkFile(String currPath, String fileName) throws Exception{
 		currPath = currPath + "/" + fileName;
 		File filePath = new File(currPath);
@@ -27,7 +27,16 @@ public class MakeOperation {
 	}
 	
 
-	//在指定路径创建文件
+	/**
+	 * <p>
+	 * 在指定文件夹创建文件
+	 * <p>
+	 * 
+	 * @param currPath
+	 * @param fileName
+	 * @param desPath
+	 * @throws Exception
+	 */
 	public static void mkFile(String currPath, String fileName, String desPath) throws Exception{
 		desPath = desPath + "/" + fileName;
 		File filePath = new File(desPath);
@@ -43,7 +52,15 @@ public class MakeOperation {
 	}
 	
 	
-	//在当前路径创建文件夹
+	/**
+	 * <p>
+	 * 在当前文件夹创建文件夹
+	 * <p>
+	 * 
+	 * @param currPath
+	 * @param dirName
+	 * @throws Exception
+	 */
 	public static void mkDir(String currPath, String dirName) throws Exception{
 		currPath = currPath + "/" + dirName;
 		File dirPath = new File(currPath);
@@ -59,7 +76,16 @@ public class MakeOperation {
 	}
 	
 	
-	//在指定路径创建文件夹
+	/**
+	 * <p>
+	 * 在指定文件夹创建文件夹
+	 * <p>
+	 * 
+	 * @param currPath
+	 * @param dirName
+	 * @param desPath
+	 * @throws Exception
+	 */
 	public static void mkDir(String currPath, String dirName, String desPath) throws Exception{
 		desPath = desPath + "/" + dirName;
 		File dirPath = new File(desPath);

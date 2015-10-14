@@ -4,11 +4,10 @@ public class EncryptOperation{
     /**
      * <p>
      * 文件加密
-     * </p>
-     *
-     * @param key
-     * @param sourceFilePath
-     * @param destFilePath
+     * <p>
+     * @param currPath
+     * @param cmInput1
+     * @param cmInput2
      * @throws Exception
      */
     public static void encryptFile(String currPath, String cmInput1, String cmInput2) throws Exception {

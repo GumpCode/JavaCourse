@@ -6,6 +6,14 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 
 public class CopyOperation {
+	/**
+	 * <p>
+	 * 复制操作
+	 * <p>
+	 * @param currPath
+	 * @param cmInput
+	 * @param destPath
+	 */
 	public static void copy(String currPath, String cmInput, String destPath){
 		String srcPath;
 		if(cmInput.contains("/")){

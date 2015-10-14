@@ -7,8 +7,9 @@ public class DecryptOperation {
      * </p>
      *
      * @param key
-     * @param sourceFilePath
-     * @param destFilePath
+     * @param currPath
+     * @param cmInput1
+     * @param cmInput2
      * @throws Exception
      */
     public static void decryptFile(String currPath, String cmInput1, String cmInput2, String key) throws Exception {

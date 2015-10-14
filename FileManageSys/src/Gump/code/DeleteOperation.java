@@ -3,6 +3,15 @@ package Gump.code;
 import java.io.File;
 
 public class DeleteOperation {
+	/**
+	 * <p>
+	 * 删除操作
+	 * <p>
+	 * 
+	 * @param currPath
+	 * @param cmInput
+	 * @throws Exception
+	 */
 	public static void rmOperate(String currPath, String cmInput) throws Exception{
 		if(!cmInput.contains("/")){//删除当前路径下文件（夹）
 			currPath = currPath + "/" + cmInput;

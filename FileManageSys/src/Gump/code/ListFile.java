@@ -3,6 +3,12 @@ package Gump.code;
 import java.io.File;
 
 public class ListFile {
+	/**
+	 * <p>
+	 * 罗列当前文件
+	 * <p>
+	 * @param currPath
+	 */
 	public static void listFile(String currPath){
 		StringBuilder info = new StringBuilder();
 			

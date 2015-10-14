@@ -15,9 +15,12 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 
-
 public class AESUtils {
-
+	/**
+	 * <p>
+	 * AES加密算法
+	 * <p>
+	 */
     private static final String ALGORITHM = "AES";
     private static final int KEY_SIZE = 128;
     private static final int CACHE_SIZE = 1024;

@@ -10,9 +10,13 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 public class CompressOperation {
+	/**
+	 * <p>
+	 * 压缩操作
+	 * <p>
+	 */
 	private static final String EXT = ".zip";
 	private static String BASE_DIR = "";
-	
 	private static final String PATH = "/";
 	private static final int BUFFER = 1024;
 	

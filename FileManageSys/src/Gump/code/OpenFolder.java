@@ -29,14 +29,14 @@ public class OpenFolder {
 			} else {
 				System.out.println("the file is not exist!");
 			}
-		} else{ //打开指定路径
+		} else { //打开指定路径
 			File file = new File(cmPath);
 			if(file.isDirectory()){
 				currPath = cmPath;
 			} else if ((!file.isDirectory() && file.exists())){
-				System.out.println(file + " is not a diretory!");
+				System.out.println(file + ":Not a diretory!");
 			} else {
-				System.out.println("the file is not exist!");
+				System.out.println("Not such file or diretory");
 			}
 		}
 		SysInfo.setPath(currPath);
